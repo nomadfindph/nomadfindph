@@ -1,0 +1,91 @@
+body {
+    background-color: #222222;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav {
+    font-size: 16px;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 10px;
+}
+
+table {
+margin-left: auto;
+margin-right: auto;
+}
+
+.nav-td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-ul{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    margin: 0 50px;
+}
+
+.nav-ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+#nav-logo {
+    padding-top: 5px;
+    height: 45px;
+}
+
+.form-control {
+    color: #FFA800;
+    border-color: #FFA800;
+    border-radius: 20px;
+    height: 50px;
+    width: 450px;
+}
+
+.btn:hover {
+    color: #222222;
+    background-color:#FFA800;
+    border-color: #FFA800;
+}
+
+.navbar {
+    background-color: #222222!important;
+}
+
+.white-link {
+    color: white;
+}
+
+.white-link:hover {
+    color: #FFA800;
+}
+
+.landlord-sign {
+    color: #FFA800;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid #FFA800;
+    border-radius: 10px;
+}
+
+.landlord-sign:hover {
+    background-color: #FFA800;
+    color: #222222;
+    border-color: #222222;
+}
+
+.right-line {
+    border-right: 1px solid white;
+}

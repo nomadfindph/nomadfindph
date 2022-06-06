@@ -1,0 +1,39 @@
+.footer {
+    background-color: #ffffff;
+    text-align: center;
+    height: 350px;
+}
+
+.footer > p {
+    padding-top: 4rem;
+    font-size: 24px;
+}
+
+#footer-brand > img {
+    height: 30px;
+    padding-top: 10px;
+}
+
+#credits {
+    font-size: 16px;
+}
+
+.socials {
+    padding: 1rem;
+}
+
+.socials > a {
+    color: #222222;
+}
+
+.socials > a:hover {
+    color: #FFA800;
+}
+
+.places-near-you {
+    color: white;
+}
+
+.footer-brand-text{
+    color: #FFA800;
+}
